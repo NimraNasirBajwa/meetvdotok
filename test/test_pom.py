@@ -6,7 +6,8 @@ from selenium.webdriver.chrome.options import Options
 import clipboard
 from selenium.webdriver.common.by import By
 
-from POM_test import login
+from pomtestt.pom import login
+
 
 class Test_001_Login:
 

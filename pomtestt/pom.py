@@ -1,7 +1,4 @@
-import smtplib
-from email.message import EmailMessage
 import clipboard
-import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
