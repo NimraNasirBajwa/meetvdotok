@@ -5,8 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import clipboard
 from selenium.webdriver.common.by import By
-import pytest
 from pom import login
+
 
 class Test_001_Login:
 
@@ -154,3 +154,11 @@ class Test_001_Login:
                 returncal.click()
                 if x == 10:
                     break
+
+
+
+
+
+
+
+
