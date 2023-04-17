@@ -37,7 +37,7 @@ class Test_001_Login:
         msg = EmailMessage()
         msg['Subject'] = 'Vdotok_link'
         msg['From'] = 'Nimra'
-        msg['To'] = 'nimranasir254@gmail.com',
+        msg['To'] = 'nimra.nasir@vdotok.com', 'aleem.asghar@vdotok.com', 'adil.ismail@vdotok.com',
         msg.set_content(message1)
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.ehlo()
