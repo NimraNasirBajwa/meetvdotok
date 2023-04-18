@@ -44,7 +44,7 @@ class Test_001_Login:
 
         server.starttls()
         server.ehlo()
-        server.login("nimranasir301@gmail.com", "bpcqslovwihohelm")
+        server.login("nimranasir301@gmail.com", "wjbhoxfyxmorqzgf")
         server.send_message(msg)
         server.quit()
 
