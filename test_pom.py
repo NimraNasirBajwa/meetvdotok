@@ -10,10 +10,10 @@ from pom import login
 
 class Test_001_Login:
 
-    User_Name1 = "Nimra"
-    User_Name2 = "Summen"
-    User_Name3 = "Rida"
-    User_Name4 = "Faiqa"
+    User_Name1 = "User1"
+    User_Name2 = "User2"
+    User_Name3 = "User3"
+    User_Name4 = "User4"
     Base_url = "https://meet.vdotok.com/"
 
     global driver
@@ -59,7 +59,7 @@ class Test_001_Login:
         opt.add_argument('--use-fake-ui-for-media-stream')
         opt.add_argument('--use-fake-device-for-media-stream')
         opt.add_argument('--no-sandbox')
-        opt.add_argument('--use-file-for-fake-video-capture=C:\\video\\myfile2.y4m')
+        opt.add_argument('--use-file-for-fake-video-capture=shortclip (1).y4m')
         opt.add_argument('--use-file-for-fake-audio-capture=C:\\Users\\Nimra Nasir\\Downloads\\Music\\audio.wav')
 
         # Pass the argument 1 to allow and 2 to block
@@ -85,7 +85,7 @@ class Test_001_Login:
         opt.add_argument('--use-fake-ui-for-media-stream')
         opt.add_argument('--use-fake-device-for-media-stream')
         opt.add_argument('--no-sandbox')
-        opt.add_argument('--use-file-for-fake-video-capture=C:\\video\\myfile2.y4m')
+        opt.add_argument('--use-file-for-fake-video-capture=shortclip (1).y4m')
         opt.add_argument('--use-file-for-fake-audio-capture=C:\\Users\\Nimra Nasir\\Downloads\\Music\\audio.wav')
 
         # Pass the argument 1 to allow and 2 to block
@@ -112,7 +112,7 @@ class Test_001_Login:
         opt.add_argument('--use-fake-ui-for-media-stream')
         opt.add_argument('--use-fake-device-for-media-stream')
         opt.add_argument('--no-sandbox')
-        opt.add_argument('--use-file-for-fake-video-capture=C:\\video\\myfile2.y4m')
+        opt.add_argument('--use-file-for-fake-video-capture=shortclip (1).y4m')
         opt.add_argument('--use-file-for-fake-audio-capture=C:\\Users\\Nimra Nasir\\Downloads\\Music\\audio.wav')
 
         # Pass the argument 1 to allow and 2 to block
