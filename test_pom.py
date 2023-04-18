@@ -60,8 +60,7 @@ class Test_001_Login:
         opt.add_argument('--use-fake-device-for-media-stream')
         opt.add_argument('--no-sandbox')
         opt.add_argument('--use-file-for-fake-video-capture=shortclip (1).y4m')
-        opt.add_argument('--use-file-for-fake-audio-capture=C:\\Users\\Nimra Nasir\\Downloads\\Music\\audio.wav')
-
+        opt.add_argument('--use-file-for-fake-audio-capture=audio.wav')
         # Pass the argument 1 to allow and 2 to block
         opt.add_experimental_option("prefs", {
             "profile.default_content_setting_values.media_stream_mic": 1,
@@ -86,7 +85,7 @@ class Test_001_Login:
         opt.add_argument('--use-fake-device-for-media-stream')
         opt.add_argument('--no-sandbox')
         opt.add_argument('--use-file-for-fake-video-capture=shortclip (1).y4m')
-        opt.add_argument('--use-file-for-fake-audio-capture=C:\\Users\\Nimra Nasir\\Downloads\\Music\\audio.wav')
+        opt.add_argument('--use-file-for-fake-audio-capture=audio.wav')
 
         # Pass the argument 1 to allow and 2 to block
         opt.add_experimental_option("prefs", {
@@ -113,7 +112,7 @@ class Test_001_Login:
         opt.add_argument('--use-fake-device-for-media-stream')
         opt.add_argument('--no-sandbox')
         opt.add_argument('--use-file-for-fake-video-capture=shortclip (1).y4m')
-        opt.add_argument('--use-file-for-fake-audio-capture=C:\\Users\\Nimra Nasir\\Downloads\\Music\\audio.wav')
+        opt.add_argument('--use-file-for-fake-audio-capture=audio.wav')
 
         # Pass the argument 1 to allow and 2 to block
         opt.add_experimental_option("prefs", {
